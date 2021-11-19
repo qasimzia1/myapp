@@ -209,9 +209,7 @@ function About() {
 
   return (
     <div>
-      {medicine.labs.map ((labs)=> labs.name ==PTT ( <li> {labs.name} </li> ,
-      <li> labs.type  </li>,
-      <li>labs.name </li> )   )}
+    
          <Child Count1={secCount} myname={name} city={cities} medicines={medicine.medications[0].aceInhibitors[0].strength}/>
       {medicine.medications[0].aceInhibitors.map((aceInhibitors) => (
         <ul>
