@@ -16,6 +16,7 @@ import Home from './pages/home';
 import Contact from './pages/contact';
 import Contactchild from './components/contactchild';
 import Formp from './components/formp';
+import Jason from './pages/jason';
 
 
 
@@ -33,6 +34,7 @@ function App() {
       <Link to="about1"> info </Link>
       <Link to="/contact"> contact </Link>
       <Link to="/formp"> form </Link>
+      <Link to="/jason"> jason </Link>
       <Switch>
        <Route exact path="/"> <About /> </Route>
        <Route path="/about1"> <About1></About1> </Route>
@@ -41,6 +43,7 @@ function App() {
        <Route path="/contact"><Contact/> </Route>
        <Route path="/contactchild"><Contactchild/> </Route>
        <Route path="/child"> <Child /> </Route>
+       <Route path="/jason"> <Jason /> </Route>
        {/* <Route path="/"> </Route>
        <Route path="/"> </Route> */}
        <Redirect  to="/" /> 

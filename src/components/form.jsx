@@ -48,7 +48,7 @@ function Form() {
                             </div>
                         </div>
                         <div className="form-group">
-                            <button type="submit" className="btn btn-primary mr-1"  disabled={password!= confirmPassword} >submit </button>
+                            <button type="submit" className="btn btn-primary mr-1"  disabled={password== confirmPassword ? false : true} >submit </button>
                             <button type="button" onClick={() => reset()} className="btn btn-secondary">Reset</button>
                         </div>
                     </form>
